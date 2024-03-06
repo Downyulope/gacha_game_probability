@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gacha Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gacha Game</h1>
+    <div class="game-section">
+      <div id="coinCounter" class="coin-counter">Coins: <span id="coinCount">0</span></div>
+      <div class="button-container">
+        <button id="mineBtn">Mine for Coins (1% Chance)</button>
+        <div id="chance">Chance of success: 1%</div>
+      </div>
+      <div id="attempts">Attempts: 0 (Succeeded: 0, Failed: 0)</div>
+    </div>
+    <div class="pull-section">
+      <div class="button-container">
+        <button id="pullBtn">Pull from Gacha</button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
